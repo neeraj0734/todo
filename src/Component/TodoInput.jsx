@@ -37,7 +37,7 @@ const TodoInput = () => {
       {/* <div className="w-full flex justify-center items-center p-4"> */}
       <div className="w-full flex flex-row gap-4 justify-center items-center">
         <div className="inputDiv w-full md:w-5/12">
-        <h1 className="font-bold text-3xl">ToDo List</h1>
+        <h1 className="font-bold text-3xl">ToDo App</h1>
           <form onSubmit={handler} className="w-full m-auto flex gap-3 h-12">
             <input
               type="text"
@@ -55,6 +55,7 @@ const TodoInput = () => {
         </div>
       </div>
       <div className="outerDiv w-full md:w-5/12">
+      <h1 className="font-bold text-xl border-b-2">Tasks</h1>
         <ul className="list-none">
           {list}
         </ul>
